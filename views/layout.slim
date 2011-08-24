@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Someone Know?
+    meta name="keywords" content="Someone Know?"
+    link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-1.1.0.min.css"
+  body
+    div class="topbar"
+      div class="fill"
+        div class="container fixed"
+          h3
+            a href="/" Someone Know?
+          ul
+            li class="active"
+              a href="#" Home
+            li
+              a href="#about" About
+            li
+              a href="/new" Create
+    div class="container"
+      == yield 

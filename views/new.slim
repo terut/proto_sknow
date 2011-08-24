@@ -1,0 +1,18 @@
+div class="hero-unit"
+  form method="post" action="/" class="form-stacked"
+    fieldset
+      legend Create document.
+      div class="clearfix"
+        label Title
+        div class="input"
+          input type="text" name="post[title]" class="xlarge"
+      div class="clearfix"
+        label Tags
+        div class="input"
+          input type="text" name="post[tags]" class="xlarge"
+      div class="clearfix"
+        label Document
+        textarea name="post[raw_body]" class="xxlarge"
+    div class="actions" 
+      input type="submit" class="btn primary" value="Save"
+      a class="btn" href="/" Cancel 

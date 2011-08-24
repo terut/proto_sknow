@@ -1,0 +1,4 @@
+vendor
+.rvmrc
+.bundle
+Gemfile.lock
